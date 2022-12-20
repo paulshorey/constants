@@ -12,7 +12,7 @@ module.exports = {
   testPathIgnorePatterns: ['.cypress/*'],
   transform: {
     '^.+\\.[t|j]sx?$': 'babel-jest',
-    '^.+\\.stories\\.[t|j]sx?$': '@storybook/addon-storyshots/injectFileName',
+    // '^.+\\.stories\\.[t|j]sx?$': '@storybook/addon-storyshots/injectFileName',
   },
   verbose: true,
 };
